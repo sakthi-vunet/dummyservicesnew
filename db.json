@@ -5,19 +5,19 @@
 
       "name": "host-manager-service-1",
 
-      "“type”": "manager",
+      "type": "manager",
 
-      "“state”": "enabled",
+      "state": "enabled",
 
-      "“description”": "manages",
+      "“description": "manages",
 
-      "“expected_instances”": "5",
+      "expected_instances": "5",
 
-      "“actual_instances”": "4",
+      "actual_instances": "4",
 
-      "“hosts”": [{ "id": "23" }, { "id": "21" }, { "id": "36" }],
+      "hosts": [{ "id": "23" }, { "id": "21" }, { "id": "36" }],
 
-      "“labels”": ["man", "manager"]
+      "labels": ["man", "manager"]
     },
 
     {
@@ -25,38 +25,38 @@
 
       "name": "host-monitor-service-1",
 
-      "“type”": "monitor",
+      "type": "monitor",
 
-      "“state”": "disabled",
+      "state": "disabled",
 
-      "“description”": "monitors",
+      "description": "monitors",
 
-      "“expected_instances”": "2",
+      "expected_instances": "2",
 
-      "“actual_instances”": "3",
+      "actual_instances": "3",
 
-      "“hosts”": [{ "id": "3" }, { "id": "0" }, { "id": "36" }],
+      "hosts": [{ "id": "3" }, { "id": "0" }, { "id": "36" }],
 
-      "“labels”": ["mon", "monit"]
+      "labels": ["mon", "monit"]
     },
     {
       "_id": "21da1o",
 
       "name": "host-handler-service-1",
 
-      "“type”": "handler",
+      "type": "handler",
 
-      "“state”": "disabled",
+      "state": "disabled",
 
-      "“description”": "handles",
+      "description": "handles",
 
-      "“expected_instances”": "5",
+      "expected_instances": "5",
 
-      "“actual_instances”": "4",
+      "actual_instances": "4",
 
-      "“hosts”": [{ "id": "23" }, { "id": "21" }, { "id": "36" }],
+      "hosts": [{ "id": "23" }, { "id": "21" }, { "id": "36" }],
 
-      "“labels”": ["han", "handler"]
+      "labels": ["han", "handler"]
     },
 
     {
@@ -64,17 +64,17 @@
 
       "name": "host-driver-service-1",
 
-      "“type”": "driver",
+      "type": "driver",
 
-      "“state”": "enabled",
+      "state": "enabled",
 
-      "“description”": "drives",
+      "description": "drives",
 
-      "“expected_instances”": "9",
+      "expected_instances": "9",
 
-      "“actual_instances”": "7",
+      "actual_instances": "7",
 
-      "“hosts”": [
+      "hosts": [
         { "id": "3" },
         { "id": "0" },
         { "id": "36" },
@@ -83,7 +83,7 @@
         { "id": "6" }
       ],
 
-      "“labels”": ["driv", "D"]
+      "labels": ["driv", "D"]
     }
   ]
 }
