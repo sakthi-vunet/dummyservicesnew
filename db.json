@@ -9,7 +9,7 @@
 
       "state": "enabled",
 
-      "“description": "manages",
+      "description": "manages",
 
       "expected_instances": "5",
 
