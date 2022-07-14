@@ -11,9 +11,9 @@
 
       "description": "manages",
 
-      "expected_instances": "5",
+      "expected_instances": 5,
 
-      "actual_instances": "4",
+      "actual_instances": 4,
 
       "hosts": [{ "id": "23" }, { "id": "21" }, { "id": "36" }],
 
@@ -31,9 +31,9 @@
 
       "description": "monitors",
 
-      "expected_instances": "2",
+      "expected_instances": 2,
 
-      "actual_instances": "3",
+      "actual_instances": 3,
 
       "hosts": [{ "id": "3" }, { "id": "0" }, { "id": "36" }],
 
@@ -50,9 +50,9 @@
 
       "description": "handles",
 
-      "expected_instances": "5",
+      "expected_instances": 5,
 
-      "actual_instances": "4",
+      "actual_instances": 4,
 
       "hosts": [{ "id": "23" }, { "id": "21" }, { "id": "36" }],
 
@@ -70,9 +70,9 @@
 
       "description": "drives",
 
-      "expected_instances": "9",
+      "expected_instances": 9,
 
-      "actual_instances": "7",
+      "actual_instances": 7,
 
       "hosts": [
         { "id": "3" },
