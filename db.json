@@ -2,8 +2,8 @@
   "list": [
     {
       "_id": "b22d81",
-      "name": "host-manager-service-1",
-      "type": "manager",
+      "name": "Availability",
+      "type": "Free Scale",
       "state": "enabled",
       "description": "manages",
       "expected_instances": 5,
@@ -20,8 +20,8 @@
     },
     {
       "_id": "c2f80a",
-      "name": "host-monitor-service-1",
-      "type": "monitor",
+      "name": "Elastic Search",
+      "type": "Stateful",
       "state": "disabled",
       "description": "monitors",
       "expected_instances": 2,
@@ -37,8 +37,8 @@
     },
     {
       "_id": "21da1o",
-      "name": "host-handler-service-1",
-      "type": "handler",
+      "name": "GeoServer",
+      "type": "Standalone",
       "state": "disabled",
       "description": "handles",
       "expected_instances": 5,
@@ -54,8 +54,8 @@
     },
     {
       "_id": "23a23c",
-      "name": "host-driver-service-1",
-      "type": "driver",
+      "name": "GoFlow",
+      "type": "RestrictedScale",
       "state": "enabled",
       "description": "drives",
       "expected_instances": 9,
