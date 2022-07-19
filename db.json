@@ -2,88 +2,73 @@
   "list": [
     {
       "_id": "b22d81",
-
       "name": "host-manager-service-1",
-
       "type": "manager",
-
       "state": "enabled",
-
       "description": "manages",
-
       "expected_instances": 5,
-
       "actual_instances": 4,
-
-      "hosts": [{ "id": "23" }, { "id": "21" }, { "id": "36" }],
-
-      "labels": ["man", "manager"]
+      "hosts": [
+        "host-1",
+        "host-5",
+        "host-7"
+      ],
+      "labels": [
+        "man",
+        "manager"
+      ]
     },
-
     {
       "_id": "c2f80a",
-
       "name": "host-monitor-service-1",
-
       "type": "monitor",
-
       "state": "disabled",
-
       "description": "monitors",
-
       "expected_instances": 2,
-
       "actual_instances": 3,
-
-      "hosts": [{ "id": "3" }, { "id": "0" }, { "id": "36" }],
-
-      "labels": ["mon", "monit"]
+      "hosts": [
+        "host-1",
+        "host-5"
+      ],
+      "labels": [
+        "mon",
+        "monit"
+      ]
     },
     {
       "_id": "21da1o",
-
       "name": "host-handler-service-1",
-
       "type": "handler",
-
       "state": "disabled",
-
       "description": "handles",
-
       "expected_instances": 5,
-
       "actual_instances": 4,
-
-      "hosts": [{ "id": "23" }, { "id": "21" }, { "id": "36" }],
-
-      "labels": ["han", "handler"]
+      "hosts": [
+        "host-2",
+        "host-7"
+      ],
+      "labels": [
+        "han",
+        "handler"
+      ]
     },
-
     {
       "_id": "23a23c",
-
       "name": "host-driver-service-1",
-
       "type": "driver",
-
       "state": "enabled",
-
       "description": "drives",
-
       "expected_instances": 9,
-
       "actual_instances": 7,
-
       "hosts": [
-        { "id": "3" },
-        { "id": "0" },
-        { "id": "36" },
-        { "id": "23" },
-        { "id": "21" },
-        { "id": "6" }
+        "host-1",
+        "host-6",
+        "host-4"
       ],
-
-      "labels": ["driv", "D"]
+      "labels": [
+        "driv",
+        "D"
+      ]
     }
   ]
 }
